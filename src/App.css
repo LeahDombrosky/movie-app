@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  /* background-color: #222;  */
+  background-image: url("./images/8900087-elementi-del-film.jpg");  
+  background-repeat: no-repeat;
+  height: 150px;
+  padding: 20px;
+  color: black;
+  
+}
+
+.App-title {
+  font-size: 4.5em;
+  font-family: 'Great Vibes', cursive;
+  /* background-color: yellow */
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.Main-holder {
+  display: flex;
+  justify-content: center;
+  /* width: 1800px;
+  height: 1800px; */
+  /* border: 10px;
+  border-color: red; */
+}
+.Map-canvas{
+  border: 10px;
+  border-color: red;
+}
+.Map-canvas, .MovieTheater-playing{
+
+}
+/* .GoogleMaps{
+  height:1500px;
+  width: 1800px;
+} */
