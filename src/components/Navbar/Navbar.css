@@ -1,0 +1,28 @@
+.Main-Navbar,
+.Navbar-Container,
+ul,
+li {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 0;
+}
+li {
+  padding-left: 15px;
+  padding-right: 25px;
+}
+.Button {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: double;
+  font-size: 20px;
+  background-color: rgb(219, 219, 159);
+}
+
+.Clock {
+  margin-left: 30px;
+}

@@ -10,3 +10,18 @@
   border: 2px;
   
 }
+.AppTitle {
+  font-size: 5em;
+  font-family: 'Great Vibes', cursive;
+  /* background-color: yellow */
+}
+
+.SearchButton{
+  width: 180px;
+  height: 80px;
+  border-radius: 8px;
+  border-style: double;
+  font-size: 22px;
+  background-color: rgb(219, 219, 159);
+ 
+}

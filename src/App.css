@@ -7,21 +7,16 @@
   height: 80px;
 }
 
-.App-header {
+ .App-header {
   /* background-color: #222;  */
   background-image: url("./images/8900087-elementi-del-film.jpg");  
   background-repeat: no-repeat;
-  height: 150px;
+  height: 350px;
   padding: 20px;
   color: black;
   
 }
 
-.App-title {
-  font-size: 4.5em;
-  font-family: 'Great Vibes', cursive;
-  /* background-color: yellow */
-}
 
 .App-intro {
   font-size: large;
@@ -31,11 +26,11 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-.Main-holder {
+.MainHolder {
   display: flex;
-  justify-content: center;
-  /* width: 1800px;
-  height: 1800px; */
+  /* justify-content: center;
+  align-content: center; */
+  /* width: 60%;  */
   /* border: 10px;
   border-color: red; */
 }
@@ -43,10 +38,10 @@
   border: 10px;
   border-color: red;
 }
-.Map-canvas, .MovieTheater-playing{
-
+.MovieTheaters{
+  width: 50%;
 }
-/* .GoogleMaps{
-  height:1500px;
-  width: 1800px;
-} */
+.GoogleMaps{
+  /* height:1500px; */
+  width: 400px;
+}
