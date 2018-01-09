@@ -13,9 +13,9 @@ export default class Header extends Component {
 
         <div className="SearchHolder">
           {/* <input type="text" className="SearchInput"></input> */}
-          <button className="SearchButton">
+          {/* <button className="SearchButton">
             <b>Find the Movie</b>
-          </button>
+          </button> */}
         </div>
       </div>
     );
